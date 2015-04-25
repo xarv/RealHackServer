@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context>
+    <!-- Specify a JDBC datasource -->
+    <resource name="jdbc/realhack_schema" auth="Container" type="javax.sql.DataSource" username="root" password="root123" driverclassname="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/realhack_schema" maxactive="10" maxidle="4">
+ 
+	</resource>
+</context>
